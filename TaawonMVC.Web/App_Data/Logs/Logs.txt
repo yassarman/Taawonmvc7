@@ -1,0 +1,505 @@
+DEBUG 2018-08-30 15:53:11,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCCoreModule, TaawonMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCApplicationModule, TaawonMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.Api.TaawonMVCWebApiModule, TaawonMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:11,613 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-08-30 15:53:12,393 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-08-30 15:53:12,393 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-08-30 15:53:12,393 [1    ] o.Configuration.LanguageManagementConfig - Converted TaawonMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-08-30 15:53:12,393 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-08-30 15:53:12,845 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaawonMVC.EntityFramework.TaawonMVCDbContext, TaawonMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-08-30 15:53:14,097 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-08-30 15:53:14,157 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-08-30 15:53:14,189 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-08-30 15:53:14,197 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaawonMVC
+DEBUG 2018-08-30 15:53:14,205 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-08-30 15:53:14,317 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-08-30 15:53:14,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 64 classes define auto mapping attributes
+DEBUG 2018-08-30 15:53:14,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.CreateUserDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.UpdateUserDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.UserDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.CreateUploadFilesInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.deleteUploadFilesInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.getUploadFilesInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.GetUploadFilesOutput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.CreateRoleDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.PermissionDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.RoleDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.CreateRestorationTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.DeleteRestorationTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.GetRestorationTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.GetRestorationTypeOutput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.UpdateRestorationTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.CreatePropertyOwnershipInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.DeletePropertyOwnershipInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.GetPropertyOwnershipInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.GetPropertyOwnershipOutput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.UpdatePropertyOwnershipInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.createNeighborhoodIntput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.deleteNeighborhoodIntput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.getNeighborhoodIntput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.NeighborhoodDto
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.updateNeighborhoodIntput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.CreateInterventionTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.DeleteInterventionTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.GetInterventionTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.GetInterventionTypeOutput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.UpdateInterventionTypeInput
+DEBUG 2018-08-30 15:53:14,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.BuildingUsesDto
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.CreateBuildingUsesInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.DeleteBuildingUsesInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.GetBuildingUsesInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.GetBuildingUsesOutput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.UpdateBuildingUsesInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.CreateBuildingUnitsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.DeleteBuildingUnitsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.GetBuildingUnitsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.GetBuildingUnitsOutput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.UpdateBuildingUnitsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.CreateBuildingUnitContentsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.DeleteBuildingUnitContentsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.GetBuildingUnitContentsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.GetBuildingUnitContentsOutput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.UpdateBuildingUnitContentsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.BuildingTypeDto
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.CreateBuildingTypeInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.UpdateBuidlingTypeInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.BuildingsDto
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.CreateBuildingsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.UpdateBuidlingsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.CreateApplicationsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.DeleteApplicationsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.GetApplicationsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.GetApplicationsOutput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.UpdateApplicationsInput
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-08-30 15:53:14,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-08-30 15:53:16,129 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-08-30 15:53:16,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-08-30 15:53:16,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.UploadFiles.IUploadFilesAppService' with service name 'app/uploadFiles'.
+DEBUG 2018-08-30 15:53:16,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-08-30 15:53:16,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-08-30 15:53:16,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-08-30 15:53:16,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-08-30 15:53:16,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.RestorationType.IRestorationTypeAppService' with service name 'app/restorationType'.
+DEBUG 2018-08-30 15:53:16,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.PropertyOwnership.IPropertyOwnershipAppService' with service name 'app/propertyOwnership'.
+DEBUG 2018-08-30 15:53:16,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Neighborhood.INeighborhoodAppService' with service name 'app/neighborhood'.
+DEBUG 2018-08-30 15:53:16,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.InterventionType.IInterventionTypeAppService' with service name 'app/interventionType'.
+DEBUG 2018-08-30 15:53:16,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUses.IBuildingUsesAppService' with service name 'app/buildingUses'.
+DEBUG 2018-08-30 15:53:16,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUnits.IBuildingUnitsAppService' with service name 'app/buildingUnits'.
+DEBUG 2018-08-30 15:53:16,145 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUnitContents.IBuildingUnitContentsAppService' with service name 'app/buildingUnitContents'.
+DEBUG 2018-08-30 15:53:16,145 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingType.IBuildingTypeAppService' with service name 'app/buildingType'.
+DEBUG 2018-08-30 15:53:16,145 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Buildings.IBuildingsAppService' with service name 'app/buildings'.
+DEBUG 2018-08-30 15:53:16,145 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Applications.IApplicationsAppService' with service name 'app/applications'.
+WARN  2018-08-30 15:53:23,958 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-08-30 15:53:34,672 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ddb20eda-abd7-4a56-b407-47cb14ddebc4","IpAddress":"192.168.1.117","TenantId":null,"UserId":1,"ConnectTime":"2018-08-30T15:53:34.6602368+03:00","Properties":{}}
+DEBUG 2018-08-30 15:53:34,724 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ddb20eda-abd7-4a56-b407-47cb14ddebc4
+DEBUG 2018-08-30 15:53:46,639 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ddb20eda-abd7-4a56-b407-47cb14ddebc4
+DEBUG 2018-08-30 15:53:47,479 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c6301fd0-4144-483a-8a6b-0ed9fc12c236","IpAddress":"192.168.1.117","TenantId":null,"UserId":1,"ConnectTime":"2018-08-30T15:53:47.4712646+03:00","Properties":{}}
+DEBUG 2018-08-30 15:53:47,499 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c6301fd0-4144-483a-8a6b-0ed9fc12c236
+DEBUG 2018-08-30 15:55:59,515 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c6301fd0-4144-483a-8a6b-0ed9fc12c236
+DEBUG 2018-09-02 08:33:56,586 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-02 08:33:56,598 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-09-02 08:33:56,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.Web.TaawonMVCWebModule, TaawonMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCDataModule, TaawonMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCCoreModule, TaawonMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCApplicationModule, TaawonMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.Api.TaawonMVCWebApiModule, TaawonMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:33:56,614 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-09-02 08:33:56,866 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:33:56,866 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:33:56,866 [1    ] o.Configuration.LanguageManagementConfig - Converted TaawonMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:33:56,866 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:33:57,189 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaawonMVC.EntityFramework.TaawonMVCDbContext, TaawonMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:34:00,030 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-02 08:34:00,082 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-02 08:34:00,097 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-02 08:34:00,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaawonMVC
+DEBUG 2018-09-02 08:34:00,121 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-02 08:34:00,269 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-02 08:34:00,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 64 classes define auto mapping attributes
+DEBUG 2018-09-02 08:34:00,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.CreateUserDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.UpdateUserDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.UserDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.CreateUploadFilesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.deleteUploadFilesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.getUploadFilesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.GetUploadFilesOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.PermissionDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.RoleDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.CreateRestorationTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.DeleteRestorationTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.GetRestorationTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.GetRestorationTypeOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.UpdateRestorationTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.CreatePropertyOwnershipInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.DeletePropertyOwnershipInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.GetPropertyOwnershipInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.GetPropertyOwnershipOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.UpdatePropertyOwnershipInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.createNeighborhoodIntput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.deleteNeighborhoodIntput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.getNeighborhoodIntput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.NeighborhoodDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.updateNeighborhoodIntput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.CreateInterventionTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.DeleteInterventionTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.GetInterventionTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.GetInterventionTypeOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.UpdateInterventionTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.BuildingUsesDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.CreateBuildingUsesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.DeleteBuildingUsesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.GetBuildingUsesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.GetBuildingUsesOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.UpdateBuildingUsesInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.CreateBuildingUnitsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.DeleteBuildingUnitsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.GetBuildingUnitsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.GetBuildingUnitsOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.UpdateBuildingUnitsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.CreateBuildingUnitContentsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.DeleteBuildingUnitContentsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.GetBuildingUnitContentsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.GetBuildingUnitContentsOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.UpdateBuildingUnitContentsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.BuildingTypeDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.CreateBuildingTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.UpdateBuidlingTypeInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.BuildingsDto
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.CreateBuildingsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.UpdateBuidlingsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.CreateApplicationsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.DeleteApplicationsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.GetApplicationsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.GetApplicationsOutput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.UpdateApplicationsInput
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-09-02 08:34:00,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-09-02 08:34:03,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-09-02 08:34:03,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-09-02 08:34:03,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.UploadFiles.IUploadFilesAppService' with service name 'app/uploadFiles'.
+DEBUG 2018-09-02 08:34:03,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-09-02 08:34:03,056 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-09-02 08:34:03,056 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-09-02 08:34:03,056 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-09-02 08:34:03,056 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.RestorationType.IRestorationTypeAppService' with service name 'app/restorationType'.
+DEBUG 2018-09-02 08:34:03,056 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.PropertyOwnership.IPropertyOwnershipAppService' with service name 'app/propertyOwnership'.
+DEBUG 2018-09-02 08:34:03,060 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Neighborhood.INeighborhoodAppService' with service name 'app/neighborhood'.
+DEBUG 2018-09-02 08:34:03,060 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.InterventionType.IInterventionTypeAppService' with service name 'app/interventionType'.
+DEBUG 2018-09-02 08:34:03,060 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUses.IBuildingUsesAppService' with service name 'app/buildingUses'.
+DEBUG 2018-09-02 08:34:03,060 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUnits.IBuildingUnitsAppService' with service name 'app/buildingUnits'.
+DEBUG 2018-09-02 08:34:03,064 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUnitContents.IBuildingUnitContentsAppService' with service name 'app/buildingUnitContents'.
+DEBUG 2018-09-02 08:34:03,064 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingType.IBuildingTypeAppService' with service name 'app/buildingType'.
+DEBUG 2018-09-02 08:34:03,064 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Buildings.IBuildingsAppService' with service name 'app/buildings'.
+DEBUG 2018-09-02 08:34:03,064 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Applications.IApplicationsAppService' with service name 'app/applications'.
+WARN  2018-09-02 08:34:07,372 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-09-02 08:34:23,795 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"22579ad3-4b6b-4e7b-890f-37d3eeefa7f3","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:34:23.787698+03:00","Properties":{}}
+DEBUG 2018-09-02 08:34:23,835 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 22579ad3-4b6b-4e7b-890f-37d3eeefa7f3
+DEBUG 2018-09-02 08:34:34,169 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 22579ad3-4b6b-4e7b-890f-37d3eeefa7f3
+DEBUG 2018-09-02 08:34:35,088 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9d43e21f-b72b-40ab-a4f9-2b16f8e22b0c","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:34:35.0841608+03:00","Properties":{}}
+DEBUG 2018-09-02 08:34:35,092 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9d43e21f-b72b-40ab-a4f9-2b16f8e22b0c
+DEBUG 2018-09-02 08:34:41,370 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9d43e21f-b72b-40ab-a4f9-2b16f8e22b0c
+DEBUG 2018-09-02 08:34:42,245 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"902b5dd8-6408-4db8-a74f-da65e8b5a42f","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:34:42.2413849+03:00","Properties":{}}
+DEBUG 2018-09-02 08:34:42,249 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 902b5dd8-6408-4db8-a74f-da65e8b5a42f
+DEBUG 2018-09-02 08:37:04,665 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 902b5dd8-6408-4db8-a74f-da65e8b5a42f
+DEBUG 2018-09-02 08:37:05,507 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e99e3dfa-b534-4347-8e8b-01a4000bad5c","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:37:05.5039208+03:00","Properties":{}}
+DEBUG 2018-09-02 08:37:05,515 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e99e3dfa-b534-4347-8e8b-01a4000bad5c
+DEBUG 2018-09-02 08:41:27,829 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e99e3dfa-b534-4347-8e8b-01a4000bad5c
+DEBUG 2018-09-02 08:41:28,672 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d4c9195e-c52b-4037-8223-f2483c5ea01d","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:41:28.6683016+03:00","Properties":{}}
+DEBUG 2018-09-02 08:41:28,680 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d4c9195e-c52b-4037-8223-f2483c5ea01d
+DEBUG 2018-09-02 08:41:42,873 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d4c9195e-c52b-4037-8223-f2483c5ea01d
+DEBUG 2018-09-02 08:41:43,943 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e22f3576-771b-4b00-a897-594962a51165","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:41:43.9399512+03:00","Properties":{}}
+DEBUG 2018-09-02 08:41:43,947 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e22f3576-771b-4b00-a897-594962a51165
+DEBUG 2018-09-02 08:41:53,039 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e22f3576-771b-4b00-a897-594962a51165
+DEBUG 2018-09-02 08:46:34,218 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-02 08:46:34,234 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-09-02 08:46:34,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.Web.TaawonMVCWebModule, TaawonMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCDataModule, TaawonMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCCoreModule, TaawonMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.TaawonMVCApplicationModule, TaawonMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaawonMVC.Api.TaawonMVCWebApiModule, TaawonMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:34,246 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-09-02 08:46:34,490 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:46:34,490 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:46:34,490 [1    ] o.Configuration.LanguageManagementConfig - Converted TaawonMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:46:34,490 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-02 08:46:34,793 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaawonMVC.EntityFramework.TaawonMVCDbContext, TaawonMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-02 08:46:37,857 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-02 08:46:37,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-02 08:46:37,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-02 08:46:37,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaawonMVC
+DEBUG 2018-09-02 08:46:37,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-02 08:46:38,165 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-02 08:46:38,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 64 classes define auto mapping attributes
+DEBUG 2018-09-02 08:46:38,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.CreateUserDto
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.UpdateUserDto
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Users.Dto.UserDto
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.CreateUploadFilesInput
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.deleteUploadFilesInput
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.getUploadFilesInput
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.UploadFiles.DTO.GetUploadFilesOutput
+DEBUG 2018-09-02 08:46:38,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.PermissionDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Roles.Dto.RoleDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.CreateRestorationTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.DeleteRestorationTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.GetRestorationTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.GetRestorationTypeOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.RestorationType.DTO.UpdateRestorationTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.CreatePropertyOwnershipInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.DeletePropertyOwnershipInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.GetPropertyOwnershipInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.GetPropertyOwnershipOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.PropertyOwnership.DTO.UpdatePropertyOwnershipInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.createNeighborhoodIntput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.deleteNeighborhoodIntput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.getNeighborhoodIntput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.NeighborhoodDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Neighborhood.DTO.updateNeighborhoodIntput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.CreateInterventionTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.DeleteInterventionTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.GetInterventionTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.GetInterventionTypeOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.InterventionType.DTO.UpdateInterventionTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.BuildingUsesDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.CreateBuildingUsesInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.DeleteBuildingUsesInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.GetBuildingUsesInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.GetBuildingUsesOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUses.DTO.UpdateBuildingUsesInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.CreateBuildingUnitsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.DeleteBuildingUnitsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.GetBuildingUnitsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.GetBuildingUnitsOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnits.DTO.UpdateBuildingUnitsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.CreateBuildingUnitContentsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.DeleteBuildingUnitContentsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.GetBuildingUnitContentsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.GetBuildingUnitContentsOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingUnitContents.DTO.UpdateBuildingUnitContentsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.BuildingTypeDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.CreateBuildingTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.BuildingType.DTO.UpdateBuidlingTypeInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.BuildingsDto
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.CreateBuildingsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Buildings.DTO.UpdateBuidlingsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.CreateApplicationsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.DeleteApplicationsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.GetApplicationsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.GetApplicationsOutput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Applications.DTO.UpdateApplicationsInput
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-09-02 08:46:38,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaawonMVC.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-09-02 08:46:42,164 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-09-02 08:46:42,164 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-09-02 08:46:42,164 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.UploadFiles.IUploadFilesAppService' with service name 'app/uploadFiles'.
+DEBUG 2018-09-02 08:46:42,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-09-02 08:46:42,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-09-02 08:46:42,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-09-02 08:46:42,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-09-02 08:46:42,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.RestorationType.IRestorationTypeAppService' with service name 'app/restorationType'.
+DEBUG 2018-09-02 08:46:42,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.PropertyOwnership.IPropertyOwnershipAppService' with service name 'app/propertyOwnership'.
+DEBUG 2018-09-02 08:46:42,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Neighborhood.INeighborhoodAppService' with service name 'app/neighborhood'.
+DEBUG 2018-09-02 08:46:42,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.InterventionType.IInterventionTypeAppService' with service name 'app/interventionType'.
+DEBUG 2018-09-02 08:46:42,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUses.IBuildingUsesAppService' with service name 'app/buildingUses'.
+DEBUG 2018-09-02 08:46:42,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUnits.IBuildingUnitsAppService' with service name 'app/buildingUnits'.
+DEBUG 2018-09-02 08:46:42,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingUnitContents.IBuildingUnitContentsAppService' with service name 'app/buildingUnitContents'.
+DEBUG 2018-09-02 08:46:42,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.BuildingType.IBuildingTypeAppService' with service name 'app/buildingType'.
+DEBUG 2018-09-02 08:46:42,180 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Buildings.IBuildingsAppService' with service name 'app/buildings'.
+DEBUG 2018-09-02 08:46:42,180 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaawonMVC.Applications.IApplicationsAppService' with service name 'app/applications'.
+WARN  2018-09-02 08:46:47,085 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-09-02 08:47:12,461 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1ae50143-3046-4119-823f-3e61ed838754","IpAddress":"192.168.1.122","TenantId":null,"UserId":1,"ConnectTime":"2018-09-02T08:47:12.4499849+03:00","Properties":{}}
+DEBUG 2018-09-02 08:47:12,537 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1ae50143-3046-4119-823f-3e61ed838754
+DEBUG 2018-09-02 08:47:14,614 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1ae50143-3046-4119-823f-3e61ed838754
